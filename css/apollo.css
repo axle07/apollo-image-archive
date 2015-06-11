@@ -1,0 +1,545 @@
+color-white {
+	color: white;
+}
+html {
+		width: 100%;
+}
+body {
+	font-family: "Oswald";
+	font-weight: 300;
+	width: 100%;
+	/*line-height: 22px;*/
+	/*word-spacing: 1.1px;*/
+		background: url(../img/aii_bkgd.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+/*.navbar-wrapper {
+	background-color: white;
+	padding: 0;
+}*/
+.carousel-caption-center {
+	background-color: rgba(1,1,1,.8); 
+	padding: 12px 12px 1px 12px;
+}
+.brand:hover {
+	text-decoration: none;
+	color: darkGray;
+}
+.navbar {
+	margin-top: -2px; 
+	/*font-family: 'Lato';*/
+}
+.navbar-nav > li > a {
+	font-weight: 300;
+	color: white;
+	padding: 28px 16px;
+}
+h1.hero-unit {
+	font-size: 98px;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 94px auto 94px;
+	-webkit-text-shadow: 1px 1px 5px  rgba(41,41,41,1);
+	-moz-text-shadow: 1px 1px 5px  rgba(41,41,41,1);
+	text-shadow: 2px 2px 5px  rgba(41,41,41,1);
+}
+ul.pull-right {
+	margin: 0;	
+}
+.upcase {
+}
+p.upcase {
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 21px;
+	font-weight: 100;
+}
+.btn {
+	margin-bottom: 24px;
+	font-weight: 300;
+}
+.btn-default {
+	background-color: darkGray;
+	border-color: black;
+}
+/* 
+*
+* inherited from lroc.css.scss 
+*
+*/
+
+figure {
+	margin: 0
+}
+
+.transparent {
+	/* Required for IE 5, 6, 7 */
+	/* ...or something to trigger hasLayout, like zoom: 1; */
+	width: 100%; 
+
+	/* Theoretically for IE 8 & 9 (more valid) */	
+	/* ...but not required as filter works too */
+	/* should come BEFORE filter */
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+
+	/* This works in IE 8 & 9 too */
+	/* ... but also 5, 6, 7 */
+	filter: alpha(opacity=50);
+
+	/* Older than Firefox 0.9 */
+	-moz-opacity:0.5;
+
+	/* Safari 1.x (pre WebKit!) */
+	-khtml-opacity: 0.5;
+
+/* Modern!
+/* Firefox 0.9+, Safari 2?, Chrome any?
+/* Opera 9+, IE 9+ */
+opacity: 0.5;
+}
+
+
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* lighter body text */
+
+body {
+	color: white;
+	font-size: 1.6em;
+	font-weight: 300;
+	/*font-family: 'Lato', Lato, Helvetica, sans-serif;*/
+}
+ul {
+	/*  overflow: auto;  */
+}
+
+li {
+	/*  white-space: nowrap; */
+}
+
+img {
+	height: auto;
+}
+
+.inline-block {
+	display: inline-block;
+}
+select {
+	margin-left: 12px;
+}
+hr {
+	border-top: 1px solid #d1d1d1;
+}
+/* homepage styles */
+.hp {
+	margin-left: 48px;
+	margin-right: 48px;
+}	
+.item img {
+	min-height: 100%;
+}
+
+/* rules to stick the footer to the bottom of the page */
+html, body {
+	height: 100%;
+}
+article {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 1em -4em; 
+	margin-bottom: -4em;
+	padding-top: 2.4em;
+}
+.footer, .push {
+	height: 4em;
+}
+
+/* more footer */
+.footer {
+	background-color: #8d8d8d; 
+	width: 100%;
+	height: 88px;
+	margin-top: 98px;
+	/*	box-shadow: inset 0px 10px 10px -8px #000;  */
+}
+.footer-img {
+	margin: 15px 30px 0px 30px;
+	text-align: center;
+}
+.footer img {
+	height: 58px;
+}
+
+/* Hide the arrows on the number input field */ 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	/* display: none; <- Crashes Chrome on hover */
+	-webkit-appearance: none;
+	margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+header {
+	margin-bottom: 24px;
+}
+
+/* typography */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 300;
+	margin-top: 32px;
+	margin-bottom: 32px;
+}
+
+header h1 {
+	font-size: 60px;
+	line-height: 60px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+header h2 {
+	line-height: 34px;
+}
+.notice {
+	color: rgb(0, 197, 0);
+	font-size: 36px;
+	font-weight: bolder;
+}
+.mini-divider {
+	margin: 48px;
+}
+
+/* forms */
+input {
+	margin-bottom: 1em;
+}
+
+/* bootstrap-will_paginate fix */
+.pagination ul {
+	margin: 15px -40px !important;
+}
+
+/*other stuff*/
+.nav {
+	font-weight: 300;	
+}
+
+.featurette img {
+	margin-bottom: 12px;
+}
+
+.shadow-top {
+	box-shadow: inset 0px 8px 10px -8px #000
+}
+
+.inline {
+	display: inline;
+}
+figcaption {
+	padding: 2px;
+	margin: 6px 2px 0 2px;
+	font-size: 0.9em;
+}
+
+.inline {
+	display: inline;
+}
+
+.youtube {
+	width:934px;
+	height:525px; 
+}
+/* additions to Bootstrap */
+a {
+	color: #4E9FDF;
+}
+
+.img-polaroid {
+	box-shadow: 4px 8px 9px -9px;
+	max-width: 960px;
+	margin: 21px inherit; 
+	/* fixes the border stretching the entire length of the containing element rather than the width of the img */ 
+	display: inline-block;
+}
+/*.img-polaroid img {
+	width: 100% 
+}
+*/
+#featured .img-polaroid {
+	margin-bottom: 64px;
+}
+
+.nav-pills > li > a
+{	
+	font-size: 1.4em;
+	font-weight: normal;
+}
+
+.nav-tabs{
+	position: fixed;
+	margin-top: 96px;
+}
+
+.nav-tabs > li > a
+{	
+	font-size: 1.3em;
+	//font-weight: normal;
+}
+
+.table {
+	border-bottom: 1px rgb(221,221,221) solid;
+	margin-bottom: 68px;
+}
+
+.pull-right {
+	margin: 1.2em 2em;
+	clear: right;
+}
+.pull-left-img {
+	float: left;
+	width: 400px;
+	height: 600px;
+}
+/*
+article .container {
+	width: 960px;
+}
+*/
+.tabs-left {
+	/*	margin-right: 30px */
+}
+
+li {
+	line-height: 24px;
+}
+
+.img-polaroid p {
+	margin:5px;
+	padding:5px;
+}
+
+/*second scrollbar fix */
+.tab-pane {
+	overflow: hidden;
+}
+
+/* fix for images from Serendipity that are too small */
+
+.serendipity_image_center {
+	width: 100%;
+}
+/*second scrollbar fix */
+.tab-pane {
+	overflow: hidden;
+}
+
+.featured-image {
+	height: 375px;
+	width: 375px;
+}
+
+.row {
+	margin-bottom: 60px;
+}
+
+a h1 {
+	color: #5A5A5A;
+}
+
+h1 a {
+	color: #5A5A5A;
+}
+
+a:hover h1 {
+	color: #4E9FDF;
+	text-decoration: none;
+}
+
+h1 a:hover {
+	color: #4E9FDF;
+	text-decoration: none;
+}
+
+
+/* CUSTOMIZE THE NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+/*      position: relative;
+z-index: 10;
+margin-top: 20px;
+margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+
+}
+
+/* Fix iPad rotation*/
+.navbar .nav {
+	float:none;
+}
+
+/* Remove border and change up box shadow for more contrast */
+/*.navbar .navbar-inner {
+	background-image: asset-url('EjectaBKGDplain2.jpg');
+	border-bottom: 1px solid black;
+	-webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+	-moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
+	box-shadow: inset -3px 11px 5px -8px #000;
+	box-shadow: 1px 1px 6px 0px #202020;
+}*/
+
+Offset the responsive button for proper vertical alignment 
+.navbar .btn-navbar {
+	margin-top: 10px;
+}
+
+nav ul li {
+	display: inline;
+}
+
+.navbar .nav-collapse .nav {
+	margin: 0 5px 0 5px;
+	padding-left: 0px;
+}
+.navbar .nav > li > a {
+	/*padding: 34px 21px 38px 21px;*/
+}
+.lastLink a {
+	padding-right: 0px !important;
+}
+.lastLink a {
+
+}
+.brand {
+	margin-top: 8px;
+}
+
+/* Carousel base class
+-------------------------------------------------- */
+/*
+.carousel {
+margin-bottom: 60px;
+}
+*/
+.carousel .container {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+	/* 	max-width: none; */
+}
+
+.carousel-control {
+	background-color: transparent;
+	border: 0;
+	font-size: 120px;
+	margin-top: 0;
+	text-shadow: 0 1px 1px rgba(0,0,0,.4);
+}
+
+.carousel .item {
+	height: 680px;
+}
+.carousel img {
+	min-width: 100%;
+	/* height: 500px; */
+}
+/* Hide the Serendipity image description */
+.serendipity_imageComment_txt {
+	/*	display: none; */
+}
+.carousel-caption {
+	position: static;
+	max-width: 550px;
+	padding: 20px;
+	margin: 0 0 100px 50px;
+	max-height: 100%
+}
+.carousel-caption h1,
+.carousel-caption .lead {
+	margin: 0;
+	line-height: 1.5;
+	color: #fff;
+	text-shadow: 0 1px 1px rgba(0,0,0,.4);
+}
+.carousel-caption .btn {
+	margin-top: 10px;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .span4 {
+	text-align: center;
+}
+/*
+.marketing h2 {
+font-weight: normal;
+}
+*/
+.marketing .span4 p {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+	margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+.featurette {
+	/* padding-top: 120px;  Vertically center images part 1: add padding above and below text. */
+	overflow: hidden; /* Vertically center images part 2: clear their floats. */
+}
+.featurette-image {
+	margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+}
+
+/* Give some space on the sides of the floated elements so text doesn't run right into it. */
+.featurette-image.pull-left {
+	margin-right: 40px;
+}
+.featurette-image.pull-right {
+	margin-left: 40px;
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+	font-size: 50px;
+	font-weight: 300;
+	line-height: 1;
+	/*letter-spacing: -1px;*/
+}
+
+.featurette-divider {
+	clear: both;
+}
+
+/* h tag resets   */
+h1
+{
+	font-weight: 300;
+}
+
+/* POSTS
+------------------------- */
+#socialMediaButtons {
+	position: fixed;
+	margin-top: 96px;
+}
+/*.ui-state-default .ui-icon {
+	background: asset_url("images/ui-icons_222222_256x240.png") !important;
+	}*/
