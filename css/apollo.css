@@ -52,9 +52,10 @@ ul.pull-right {
 .upcase {
 }
 p.upcase {
-	font-family: "Helvetica Neue", Helvetica, sans-serif;
-	font-size: 21px;
-	font-weight: 100;
+	font-family: "Oxygen", "Open Sans", "Roboto Condensed", "Quattrocento", futura, "Helvetica Neue", "Libre Baskerville", "Lato", Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: lighter;
+	font-weight: 300;
 }
 .btn {
 	margin-bottom: 24px;
