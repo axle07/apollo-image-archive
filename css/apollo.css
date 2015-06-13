@@ -21,7 +21,7 @@ body {
 	padding: 0;
 }*/
 .carousel-caption-center {
-	background-color: rgba(1,1,1,.8); 
+	background-color: rgba(1,1,1,.6); 
 	padding: 12px 12px 1px 12px;
 }
 .brand:hover {
@@ -41,7 +41,7 @@ h1.hero-unit {
 	font-size: 98px;
 	text-transform: uppercase;
 	text-align: center;
-	margin: 94px auto 94px;
+	margin: 144px auto 124px;
 	-webkit-text-shadow: 1px 1px 5px  rgba(41,41,41,1);
 	-moz-text-shadow: 1px 1px 5px  rgba(41,41,41,1);
 	text-shadow: 2px 2px 5px  rgba(41,41,41,1);
@@ -52,10 +52,12 @@ ul.pull-right {
 .upcase {
 }
 p.upcase {
-	font-family: "Oxygen", "Open Sans", "Roboto Condensed", "Quattrocento", futura, "Helvetica Neue", "Libre Baskerville", "Lato", Helvetica, sans-serif;
-	font-size: 16px;
+	letter-spacing: 0.2px;
+	font-family: "Roboto Condensed", "Oxygen", "Open Sans", "Quattrocento", futura, "Helvetica Neue", "Libre Baskerville", "Lato", Helvetica, sans-serif;
+	font-size: 17px;
 	font-weight: lighter;
 	font-weight: 300;
+	text-shadow: 1px 1px 1px rgba(41,41,41,1);
 }
 .btn {
 	margin-bottom: 24px;
